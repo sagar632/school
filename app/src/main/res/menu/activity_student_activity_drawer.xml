@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/std_home"
+
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/read_college_notice"
+
+            android:title="@string/read_college_notice" />
+        <item
+            android:id="@+id/read_class_notice"
+
+            android:title="@string/read_class_notice" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/result"
+
+            android:title="@string/result" />
+        <item
+            android:id="@+id/grad"
+
+            android:title="@string/fee" />
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/signout"
+
+            android:title="@string/sign_out" />
+
+
+    </group>
+
+</menu>

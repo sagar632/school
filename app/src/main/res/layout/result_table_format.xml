@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/subjectname"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/subject"
+            android:textColor="@color/resulttextcolor"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/fullmarks"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/fullmarks"
+            android:textColor="@color/resulttextcolor"
+            android:textSize="@dimen/resultcontenttext" />
+
+        <TextView
+            android:id="@+id/passmarks"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/pass_marks"
+            android:textColor="@color/resulttextcolor"
+            android:textSize="@dimen/resultcontenttext" />
+
+        <TextView
+            android:id="@+id/obtainmarks"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/obtain_marks"
+            android:textColor="@color/resulttextcolor"
+            android:textSize="@dimen/resultcontenttext" />
+
+        <TextView
+            android:id="@+id/remarks"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/remarks"
+            android:textColor="@color/resulttextcolor"
+            android:textSize="@dimen/resultcontenttext" />
+
+        <TextView
+            android:id="@+id/grad"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/grade"
+            android:textColor="@color/resulttextcolor"
+            android:textSize="@dimen/resultcontenttext" />
+
+
+    </TableRow>
+
+
+</TableLayout>
