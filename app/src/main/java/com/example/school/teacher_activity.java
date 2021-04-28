@@ -74,7 +74,14 @@ private TextView emailte;
 
                         break;
 
+                    case R.id.attendancec:
+                        Toast.makeText(getApplicationContext(),"Attendance",Toast.LENGTH_SHORT).show();
+                        //startActivity(new Intent(teacher_activity.this,addnotice.class));
+                        //finish();
+                        temp =new attendance();
+                        getSupportActionBar().setTitle("Attendance");
 
+                        break;
 
                     case R.id.signout:
 

@@ -21,6 +21,15 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/attendancec"
+
+            android:title="@string/attendance" />
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
             android:id="@+id/signout"
 
             android:title="@string/sign_out" />

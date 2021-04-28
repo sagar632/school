@@ -59,4 +59,9 @@
     <string name="fee">Fee</string>
     <string name="grade">Grade</string>
     <string name="textview">TextView</string>
+    <string name="selectdate">Select Date</string>
+    <string name="add_attendance">Add Attendance</string>
+    <string name="attendance">Attendance</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
 </resources>

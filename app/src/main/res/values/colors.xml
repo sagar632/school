@@ -6,4 +6,6 @@
     <color name="hintcolor">#707075</color>
     <color name="textcolor">#FAFAFA</color>
     <color name="resulttextcolor">#080808</color>
+    <color name="red">@android:color/holo_red_dark</color>
+    <color name="green">@android:color/holo_green_dark</color>
 </resources>

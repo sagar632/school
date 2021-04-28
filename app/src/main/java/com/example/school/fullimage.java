@@ -20,6 +20,6 @@ private ImageView imageView;
         Intent i = getIntent();
         String name = i.getStringExtra("hello");
         Picasso.with(getApplicationContext()).load(name).into(imageView);
-       // Toast.makeText(getApplicationContext(),name,Toast.LENGTH_LONG).show();
+      
     }
 }

@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                     timer.schedule(new TimerTask() {
                         @Override
                         public void run() {
-                            startActivity(new Intent(MainActivity.this, Main2Activity.class));
+                            startActivity(new Intent(MainActivity.this, teacher_activity.class));
 finish();
                         }
                     }, 0000);
@@ -50,7 +50,7 @@ finish();
                         @Override
                         public void run() {
 
-                            startActivity(new Intent(MainActivity.this,Main2Activity.class));
+                            startActivity(new Intent(MainActivity.this,teacher_activity.class));
 finish();
                         }
                     },2500);

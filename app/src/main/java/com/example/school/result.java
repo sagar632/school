@@ -186,7 +186,7 @@ getFragmentManager().beginTransaction().replace(R.id.student_framelayout,selecte
         if (connection!=null){
             Statement statement = null;
             Toast.makeText(getContext(),"Succes",Toast.LENGTH_LONG).show();
-            try { char c1v='1';
+            try { //char c1v='1';
                 statement = connection.createStatement();
                 //String query="select * from testing where c1 like "+'''c1v '+";";
                 ResultSet resultSet = statement.executeQuery("SELECT * FROM MarkSheetGrade2  left Join MarkSheetGrade1 on" +
